@@ -139,7 +139,7 @@ function center_map( map ) {
     });
  
 
- 		$(document).on('click', '.acf-map', function(event`) {
+ 		$(document).on('click', '.acf-map', function(event) {
         google.maps.event.trigger(map, 'resize');
         map.setCenter( bounds.getCenter() );
         // map.setZoom( 16 );
